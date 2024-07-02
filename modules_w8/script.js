@@ -1,4 +1,4 @@
-import { sum, mult } from "./helper1.js"
+import { sum, mult , username} from "./helper1.js"
 import { sub } from "./helper2.js"
 
 function calculate(a, b, op) {
@@ -12,7 +12,9 @@ function calculate(a, b, op) {
         return "wrong";
     }
 }
-
+//////////
 calculate(5 , 6 , "+");
 calculate(5 , 6 , "*");
 calculate(5 , 6 , "-");
+
+console.log("this is the username from script js", username)
