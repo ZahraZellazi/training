@@ -1,0 +1,66 @@
+.b1 {
+    grid-area: b1;
+    background-color: lightblue;
+}
+.b1:hover {
+    background-color: #1b7a9a;
+}
+
+.b2 {
+    grid-area: b2;
+    background-color: lightgreen;
+}
+.b2:hover {
+    background-color: #259825;
+}
+
+.b3 {
+    grid-area: b3;
+    background-color: lightcoral;
+}
+.b3:hover {
+    background-color: #e44747;
+}
+
+.b4 {
+    grid-area: b4;
+    background-color: rgb(236, 227, 95);
+}
+.b4:hover {
+    background-color: #c9bb3b;
+}
+
+.b5 {
+    grid-area: b5;
+    background-color: lightpink;
+}
+.b5:hover {
+    background-color: #da6d7d;
+}
+
+.b6 {
+    grid-area: b6;
+    background-color: lightseagreen;
+}
+.b6:hover {
+    background-color: #1a8782;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    margin: 50px auto;
+    background-color: rgb(254, 254, 254);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+        "b1 b2 b2"
+        "b3 b3 b4"
+        "b5 b6 b4";
+}
+
+.box {
+    border: 1px solid wheat;
+    font-size: 50px;
+}

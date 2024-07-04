@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    height : 400px;
+    background-color: coral;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr)); /*devides into equal parts and interactive with the size of the screen */
+    /*grid-template-rows: 100px 1fr;*/
+    row-gap: 15px;
+    column-gap: 10px;
+    place-items: center ;
+}
+.box {
+    background-color: hotpink;
+    border: 5px solid wheat;
+    font-size: 10px solid white ;
+}
