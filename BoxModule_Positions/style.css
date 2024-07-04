@@ -1,0 +1,48 @@
+.btn{
+    padding : 10px 5px 10px 7px ;
+    width: 50% ;
+    border:  4px  solid /*dotted  etc etc */ rgb(103, 183, 230);
+    /*border bottom left right top */
+    /*
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    */
+}
+.btn1{
+    position: absolute;
+    top : 0px;
+    right :0px;
+    cursor: pointer;
+    position: fixed;
+    
+}
+.btn1:hover{
+    background-color: rgb(215, 6, 6);
+}
+.box {
+    margin-top: 70px;
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 100% ;
+    /*instead of centring the button you cann*/
+    /*display: grid;
+    place-items: center ;*
+    /*          or
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    text-align: center ;
+    overflow: scroll
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: chartreuse;
+    position: fixed; /*when u scroll the navbar would still show*/
+    top : 0px;
+    z-index: 999;
+}
