@@ -1,0 +1,43 @@
+.img {
+    width: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto
+}
+.nav-items{
+    width : 40% ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items a {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(86, 86, 243);
+}
+.nav-items a:hover {
+    color: rgb(16, 16, 104);
+}
+
+
+/*
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;  This will push the links to the right 
+}
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    color: black; Change this to the color you want 
+    background-color: lightgray; Change this to the background color you want 
+    border-radius: 5px;
+}
+.nav-links a:hover {
+    background-color: gray;  Change this to the hover background color you want 
+}
+*/
