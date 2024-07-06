@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box"></div>
+    <select name="" id="">
+        <option value="" >haahahhaa</option>
+        <option value="" >haahahhaa</option>
+        <option value="" >haahahhaa</option>
+        <option value="" >haahahhaa</option>
+        <option value="" >haahahhaa</option>
+        <option value="" >haahahhaa</option>
+    </select>
+    <input type="range">
+    <br>
+    <br>
+    <input type="number" id ="b" placeholder="blue">
+    <input type="number" id ="r" placeholder="red">
+    <input type="number" id ="g" placeholder="green">
+    <button id="submit">submit</button>
+    <script>
+        var box = document.getElementById("box")
+        var box = document.getElementById("b")
+        var box = document.getElementById("r")
+        var box = document.getElementById("g")
+
+        document.getElementById("submit").addEventListener("click", () => {
+            var total = b.value*1 +r.value*1 + g.value*1 
+            percentageBlue = b.value/total * 100
+            percentageRed = r.value/total * 100 + percentageBlue
+            percentageGreen = g.value/total * 100 + percentageRed
+            box.style.backgroundImage = `cosminc-gradient (blue 0%, blue ${percentageBlue}%, red ${percentageRed}%, green ${percentageGreen}% , green 100%)`
+        })
+    </script>
+</body>
+</html>
