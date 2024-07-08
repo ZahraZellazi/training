@@ -1,0 +1,111 @@
+/*importing*/ 
+
+
+@import "./box1.scss";
+@import "./box2.scss";
+@import "./variables.scss";
+
+.box3{
+    @extend .box1 ;
+    background-color: $mainColor;
+}
+
+
+
+
+
+
+
+
+/*declaring a variable*/
+
+/*
+$mainColor: rgb(18, 139, 150);
+$generalRadius: 4px;
+
+.test {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: $mainColor; u can change a multiple of variables at once
+}
+.btn {
+  background-color: rgb(17, 160, 72);
+  padding: 10px;
+  border: none;
+  border-radius: $generalRadius;
+  color: black;
+}
+*/
+
+/*NESTING*/
+/*add all the elements to the bigger one */
+
+/*
+.container {
+    background-color: rgb(238, 244, 244);
+    padding: 10px;
+    border-radius: 7px;
+  
+    h1 {
+      color: red;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    p {
+      color: blue;
+      span {
+        color: pink;
+      }
+    }
+  
+    button {
+      background-color: green;
+    }
+  }
+  */
+
+
+  /*MIXING*/
+/*1st method*/
+/* 
+@mixin box {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin : 10px;
+}
+
+
+.box1{
+    @include box;
+    background-color: red;
+}
+.box2{
+    @include box;
+    background-color: brown;
+}
+    
+*/
+/*2nd method */
+/*extends */
+/*
+.box1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin : 10px;
+    background-color: brown
+}
+.box2{
+    @extend .box1;
+    background-color: aqua;
+}
+*/
+
+
+
+
+
