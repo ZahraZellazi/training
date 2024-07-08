@@ -1,0 +1,17 @@
+//script.js
+
+fetch("https://ip or DNS/posts")   //from here we are sending a request to the server ==> FETCH
+
+getData()
+.the((response)=>{
+    var data = response 
+    //display data 
+})
+.then(()=>{
+alert ("data is here")
+})
+.catcht((error)=>{
+    alert("eror")
+})
+
+
