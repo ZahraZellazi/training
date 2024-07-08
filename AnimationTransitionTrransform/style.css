@@ -1,0 +1,93 @@
+.container {
+  width: 600px;
+  height: 600px;
+  /*background-color: rgb(251, 252, 169);*/
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 10px; /* Add some space between the grid items */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  
+  background-image: url("https://www.freeiconspng.com/thumbs/bubbles-png/bubbles-png-1.png");
+  background-size: cover;
+  background-position: center;
+    animation: zahraAnimation 3s ease-in-out 2s 3 alternate;
+}
+.container:hover .box {
+  animation: zahraAnimation 3s ease-in-out 2s 3 alternate;
+}
+@keyframes zahraAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(400px);
+  }
+  50% {
+    transform: translateX(400px) translateY(400px);
+  }
+  75% {
+    transform: translateX(0px) translateY(400px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px) rotate(45deg);
+  }
+}
+
+/*
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: transform 2s;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    transition: transform 2s;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    transition: transform 2s;
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    transition: transform 2s;
+}
+.box5 {
+    width: 200px;
+    height: 200px;
+    background-color: mediumblue;
+    transition: transform 2s;
+}
+
+.container:hover .box1 {
+    transform: scale(2.0);
+    background-color: rgb(173, 216, 230); 
+}
+.container:hover .box2 {
+    transform: rotate(45deg);
+    background-color: rgb(70, 130, 180); 
+}
+.container:hover .box3 {
+    transform: skewY(45deg);
+    background-color: rgb(100, 149, 237); 
+}
+.container:hover .box4 {
+    transform: skewX(45deg);
+    background-color: rgb(65, 105, 225); 
+}
+.container:hover .box5 {
+    transform: translateX(100px);
+    background-color: rgb(0, 0, 205); 
+}
+*/
