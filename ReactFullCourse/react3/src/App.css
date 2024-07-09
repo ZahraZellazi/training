@@ -1,0 +1,9 @@
+.img {
+  width : 300px;
+}
+.container {
+  display: flex;
+  width: 50%;
+  background-color: #eee;
+  border:1px solid rgb(197,195,195)
+}

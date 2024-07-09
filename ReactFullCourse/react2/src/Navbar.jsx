@@ -1,4 +1,4 @@
-import Navbaritem from "./Navbaritem"
+/*import Navbaritem from "./Navbaritem"
 
 function Navbar() {
   const navElements = [
@@ -29,4 +29,4 @@ function Navbar() {
   </div>
   )
 }
-export default Navbar 
+export default Navbar */
