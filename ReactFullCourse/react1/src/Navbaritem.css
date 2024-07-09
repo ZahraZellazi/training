@@ -1,0 +1,15 @@
+.item {
+    cursor: pointer ;
+    color:purple ;
+    background-color: green;
+    margin: 10px;
+    font : 10px;
+
+}
+.item-reverse{
+    cursor: pointer ;
+    color: green ;
+    background-color: purple;
+    margin: 10px;
+    font : 10px;
+}

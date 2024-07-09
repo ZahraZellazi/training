@@ -1,14 +1,13 @@
-function navbar() {
+//import Navbaritem from "./Navbaritem"
+
+function Navbar() {
   return (
   <div>
     <nav>
-      <a href="">home</a>
-      <a href="">about</a>
-      <a href="">contact</a>
-      <a href="">login</a>
-      <a href="">signup</a>
+    <Navbaritem item="zahra" className ="item"/>
+    <Navbaritem item="zellazi" className="item-reverse"/>
     </nav>
   </div>
   )
 }
-export default navbar ;
+export default Navbar 

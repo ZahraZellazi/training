@@ -1,15 +1,11 @@
-function footer (){
+
+function Footer (){
     return (
     <div>
         <footer>
-        <h3>footer</h3>
-        <h3>footer</h3>
-        <h3>footer</h3>
-        <h3>footer</h3>
-        <h3>footer</h3>
         <h3>footer</h3>
       </footer>
     </div>
     )
 }
-export default footer;
+export default Footer

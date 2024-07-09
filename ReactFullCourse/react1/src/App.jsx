@@ -1,13 +1,16 @@
-import navbar from "./navbar";
-import footer from "./footer";
-import header from "./header";
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Footer from "./Footer";
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <navbar />
-      <header />
-      <footer />
+      <Navbar/>
+      <Header/>
+      <Header/>
+      <Header/> {/* i can use the code as many times as i like  */}
+      <Footer/>
     </div>
   );
 }
