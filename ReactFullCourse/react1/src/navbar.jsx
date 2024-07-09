@@ -1,4 +1,4 @@
-//import Navbaritem from "./Navbaritem"
+import Navbaritem from "./Navbaritem"
 
 function Navbar() {
   return (

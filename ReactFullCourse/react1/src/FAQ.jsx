@@ -1,5 +1,5 @@
 import "./FAQ.css"
-function Faq ({item}){
+function FAQ ({item}){
     return <div className="FAQItem">
         <h1>{item}</h1>
     </div>
