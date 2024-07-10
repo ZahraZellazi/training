@@ -1,2 +1,15 @@
+!!!!! check jasonpacketholder
+
+//start a react project
+
 npm i npx -g
 npx create-react-app nameOfApp
+
+//axios : request handler (react4)
+//like fetch but better simpler and easy
+//you need to import it
+to install axios you need :
+npm i axios (in your project)
+
+// how to comment a jsx 
+{/*..*/}
