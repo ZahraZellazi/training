@@ -13,3 +13,6 @@ npm i axios (in your project)
 
 // how to comment a jsx 
 {/*..*/}
+
+//react router 
+npm i react-router-dom
