@@ -34,13 +34,47 @@ function ItemList() {
     </div>
   );
 }
-  */
+*/
 function ItemList() {
   return (
     <div>
-      <Item title="hey" description="test" />
-      <Item title="hola" description="test1" />
-      <Item title="hello" description="test2" />
+      //too long
+      <Item
+        title={technologies[0].title}
+        description={technologies[0].description}
+        imgSrc={technologies[0].url}
+      />
+      <Item
+        title={technologies[1].title}
+        description={technologies[1].description}
+        imgSrc={technologies[1].url}
+      />
+      <Item
+        title={technologies[2].title}
+        description={technologies[2].description}
+        imgSrc={technologies[2].url}
+      />
+      //or you can
+      <Item
+        title="hola"
+        description="test1"
+        imgSrc="https://hips.hearstapps.com/hmg-prod/images/surprising-flower-meanings-balloon-flowers-1650767465.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      />
+      <Item
+        title="hello"
+        description="test2"
+        imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Zx-dv1PyoEbM_9rCmSKk04ugXfEfOyJoMQ&s"
+      />
+      //so we use MAPPING
+      {technologies.map((element) => {
+        return (
+        <Item
+          title={element.title}
+          description={element.description}
+          imgSrc={element.url}
+        />
+        )
+      })}
     </div>
   );
 }
