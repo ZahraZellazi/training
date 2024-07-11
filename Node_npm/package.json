@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "nodemon": "^3.1.4"
+  },
+  "name": "node_npm",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start":"nodemon script.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

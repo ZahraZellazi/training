@@ -1,0 +1,24 @@
+//V8 engine (that help excute js in browser)
+
+//we took v8 and inserted it in node 
+
+//made js executable on the machine => we could create servers without learning any programming languages 
+
+// we use a PACKAGE MANAGER(npm) to download some functionalities 
+ 
+ 
+HOW TO RUN THE PROJECT
+
+ //npm init (creats package.json)
+ //install all the dependencies you want
+ //require the module that you need
+
+NODEMON
+ 
+  //npm i nodemon
+  //modify the start in package.json to "nodmeon script.js" (ex)
+
+
+  //you should not push the node modules in git so 
+    1/ create a .gitignore 
+    2/
