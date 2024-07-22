@@ -12,7 +12,23 @@ const server = http.createServer((request, res) => {
   if (path === "/items" && method === "GET") {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(list));
-  } else {
+  } 
+  else if (path === "/items" && method === "POST"){
+  //the front will send data that we need to collect
+  var dataFromFront =""
+  request.on("data" , (piece)=> {
+    dataFromFront+=piece.toString()
+  })
+
+
+  request.on("end",()=>{
+    console.log(dataFromFront)
+    // manipulate the data as we like
+  //send back something to the front end
+
+  })
+  }
+  else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not Found');
   }
