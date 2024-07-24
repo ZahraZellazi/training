@@ -1,0 +1,9 @@
+//How to install Xpress
+
+npm init -y 
+
+npm i express 
+
+//how to install core 
+
+npm install core
