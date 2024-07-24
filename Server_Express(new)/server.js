@@ -21,7 +21,14 @@ app.get("/items", (req, res) => {
 
 // POST request
 app.post("/items", (req, res) => {
-  console.log("body", req.body);  // This should log the request body
+    
+// everytime i send a request i will be adding another list 
+    /*
+    list.push(req.body)
+    res.send(list)
+    */
+  console.log("body", req.body);  
+  // This should log the request body
   res.send("Received the POST request");
 });
 
