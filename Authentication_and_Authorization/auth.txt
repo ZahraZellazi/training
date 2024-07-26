@@ -1,0 +1,19 @@
+SignUp:
+ create and accout and hash the password
+
+Login:
+ check if the login and password are valid
+
+if the user is connected succesfully 
+   =>send to the frontend a JWT (JSON WEB TOKEN)
+
+//////////
+!! we gonna test with the thunder client !!
+//////////
+
+error messages : 
+201 (Created) for successful signup.
+409 (Conflict) if the user already exists.
+404 (Not Found) for a wrong username.
+401 (Unauthorized) for a wrong password.
+500 (Internal Server Error) for any unexpected errors.
