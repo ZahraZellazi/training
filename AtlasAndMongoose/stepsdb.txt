@@ -1,0 +1,13 @@
+SERVER: 
+
+1: create ur server 
+2: create the connection to you cloud db
+3: create a module/schema {name : string }
+4: use the methods of mongo db
+
+
+CLOUD:
+1: create your database
+2: create your 1st database
+
+POSTMAN is used as a fake front  to test the backend functionalities
