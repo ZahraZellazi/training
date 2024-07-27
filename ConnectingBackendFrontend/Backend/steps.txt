@@ -1,0 +1,37 @@
+// REACT APP
+
+    getAllBlogs(){
+        send a request to the server to get the blogs
+    }
+
+    createBlog(){
+        send a new blog object 
+        {title : "hhhh" , text : "blablabla " , imgURL: "nnn"}
+    } to the server
+
+    getAllBlogs() => to update the blogs 
+
+    deleteBlogById(id){
+        send a delete request to the server of the id of the blog we want to delete
+    }
+
+
+
+// SERVER NODEJS
+
+    create the server 
+    set the cors
+    create a connction with the db 
+    define the schema(model)
+
+
+    get("/blogs") => getting the blogs frol the db and send it to the front
+    post ("/blogs")=> taake the request body and save it in the db send to the front "success"
+    delete("blogs/id")=> delte from the db the item with that id
+
+
+
+// DATABASE
+
+    create the cluster 
+    take the connection link 
